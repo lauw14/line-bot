@@ -49,7 +49,7 @@ def handle_message(event):
         line_bot_api.reply_message(
             event.reply_token,
             sticker_message)
-    return
+        return
 
     if msg in ['hi', 'Hi']:#如果答案在其中，就執行
         r = '嗨！'
